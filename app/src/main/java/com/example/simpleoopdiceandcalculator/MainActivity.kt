@@ -2,7 +2,8 @@ package com.example.simpleoopdiceandcalculator
 
 import android.content.Intent
 import android.os.Bundle
-import android.widget.Button
+import com.example.simpleoopdiceandcalculator.calculator.CalculatorActivity
+import com.example.simpleoopdiceandcalculator.dice.RollDiceActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : BaseActivity() {

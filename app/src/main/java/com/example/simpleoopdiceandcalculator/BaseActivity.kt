@@ -1,6 +1,7 @@
 package com.example.simpleoopdiceandcalculator
 
 import android.os.Bundle
+import android.view.View
 import androidx.annotation.Nullable
 import androidx.appcompat.app.AppCompatActivity
 
@@ -10,4 +11,5 @@ abstract class BaseActivity: AppCompatActivity() {
 //    }
 
     open fun initializationListeners() {}
+
 }

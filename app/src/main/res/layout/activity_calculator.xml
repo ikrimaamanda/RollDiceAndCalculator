@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/baby_blue"
-    tools:context=".CalculatorActivity">
+    tools:context=".calculator.CalculatorActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/text_layout"
@@ -307,9 +307,10 @@
                 app:layout_constraintStart_toEndOf="@id/btn_dot"
                 app:layout_constraintEnd_toStartOf="@id/btn_clear_1"/>
 
-            <ImageView
+            <ImageButton
                 android:id="@+id/btn_clear_1"
                 android:src="@drawable/blue_backspace"
+                android:background="@drawable/bg_white"
                 style="@style/ButtonStyle123"
                 android:scaleType="center"
                 android:layout_width="90dp"
