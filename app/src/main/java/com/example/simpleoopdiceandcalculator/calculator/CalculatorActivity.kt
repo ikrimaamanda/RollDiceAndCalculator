@@ -44,7 +44,7 @@ class CalculatorActivity : BaseActivity() {
         }
 
         btn_clear_1.setOnClickListener {
-            calculator.remove()
+            calculator.erase()
         }
 
         btn_equal.setOnClickListener {
