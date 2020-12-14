@@ -308,7 +308,7 @@
                 app:layout_constraintStart_toEndOf="@id/btn_dot"
                 app:layout_constraintEnd_toStartOf="@id/btn_erase"/>
 
-            <ImageView
+            <ImageButton
                 android:id="@+id/btn_erase"
                 android:src="@drawable/blue_backspace"
                 style="@style/ButtonStyle123"
