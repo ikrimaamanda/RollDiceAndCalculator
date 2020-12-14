@@ -17,8 +17,6 @@ class CalculatorActivity : BaseActivity() {
     }
 
     override fun initializationListeners() {
-        super.initializationListeners()
-
         btn_0.setOnClickListener {calculator.appendValueByClickButton(true, "0")}
         btn_1.setOnClickListener {calculator.appendValueByClickButton(true, "1")}
         btn_2.setOnClickListener {calculator.appendValueByClickButton(true, "2")}
@@ -43,7 +41,7 @@ class CalculatorActivity : BaseActivity() {
             calculator.clear()
         }
 
-        btn_clear_1.setOnClickListener {
+        btn_erase.setOnClickListener {
             calculator.erase()
         }
 

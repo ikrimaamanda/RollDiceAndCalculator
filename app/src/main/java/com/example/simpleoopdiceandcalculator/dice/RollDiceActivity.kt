@@ -17,10 +17,10 @@ class RollDiceActivity : BaseActivity() {
     }
 
     override fun initializationListeners() {
-        super.initializationListeners()
-
         btn_roll_dice.setOnClickListener {
             dice.rollDice()
         }
     }
+
+
 }

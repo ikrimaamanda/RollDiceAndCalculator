@@ -15,7 +15,6 @@ class MainActivity : BaseActivity() {
     }
 
     override fun initializationListeners() {
-        super.initializationListeners()
         btn_roll_dice.setOnClickListener {
             val intentRollDice = Intent(this, RollDiceActivity::class.java)
             startActivity(intentRollDice)
