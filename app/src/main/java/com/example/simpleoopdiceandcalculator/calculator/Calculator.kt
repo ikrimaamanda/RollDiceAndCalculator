@@ -3,7 +3,7 @@ package com.example.simpleoopdiceandcalculator.calculator
 import android.widget.TextView
 import net.objecthunter.exp4j.ExpressionBuilder
 
-class Calculator(var tvInput : TextView, var tvOutput : TextView) {
+class Calculator(private var tvInput : TextView, private var tvOutput : TextView) {
 
     fun appendValueByClickButton(btnType:Boolean, str: String) {
         if(tvOutput.text.isNotEmpty()){

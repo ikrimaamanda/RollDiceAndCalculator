@@ -38,4 +38,6 @@ class Dice(private val diceImage: ImageView, private val tvResult : TextView ) {
         }
     }
 
+
+
 }
