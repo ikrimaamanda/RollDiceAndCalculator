@@ -42,7 +42,7 @@ class CalculatorActivity : BaseActivity() {
         }
 
         btn_erase.setOnClickListener {
-            calculator.erase()
+            calculator.clear(tv_input)
         }
 
         btn_equal.setOnClickListener {

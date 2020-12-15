@@ -24,7 +24,7 @@ class Calculator(private var tvInput : TextView, private var tvOutput : TextView
         tvOutput.text = ""
     }
 
-    fun erase() {
+    fun clear(string : Any) {
         val string = tvInput.text
         if(string.isNotEmpty()) {
             tvInput.text = string.substring(0, string.length-1)
